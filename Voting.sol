@@ -12,7 +12,7 @@ mapping(bytes32 => uint8) public votesReceived;
 //['Carol','Jorge','Tensin','Heleno']
 
 bytes32[] public candidateList;
-
+	
 //Constructor
 
 constructor(bytes32[] candidateNames) public{
